@@ -1,0 +1,35 @@
+﻿.quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.question-text {
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.options-list {
+    margin-bottom: 15px;
+}
+
+.confirm-button,
+.next-button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.feedback-label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+.result-label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
