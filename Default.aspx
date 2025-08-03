@@ -4,7 +4,7 @@
 <html>
 <head runat="server">
     <title>Quiz Dia dos Pais</title>
-    <link href="styles.css" rel="stylesheet" />
+    <link href="CSS/styles.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
