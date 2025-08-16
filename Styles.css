@@ -1,0 +1,176 @@
+﻿* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #1A1A1A;
+}
+
+body {
+    background: linear-gradient(135deg, #0052cc, #3399ff);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    width: 320px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+    .login-container label {
+        display: block;
+        font-weight: 600;
+        margin-bottom: 8px;
+        color: #0052cc; 
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .login-container input[type="text"],
+    .login-container input[type="password"],
+    .login-container asp\:textbox {
+        width: 100%;
+        padding: 12px 15px;
+        margin-bottom: 20px;
+        border: 2px solid #d0d7de;
+        border-radius: 6px;
+        font-size: 15px;
+        transition: border-color 0.3s ease;
+    }
+
+        .login-container input[type="text"]:focus,
+        .login-container input[type="password"]:focus,
+        .login-container asp\:textbox:focus {
+            border-color: #0066ff;
+            outline: none;
+            box-shadow: 0 0 6px #3399ffaa;
+        }
+
+    .login-container button,
+    .login-container asp\:button {
+        background-color: #0066ff;
+        color: white;
+        border: none;
+        padding: 14px 0;
+        width: 100%;
+        font-weight: 700;
+        font-size: 16px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.25s ease;
+    }
+
+        .login-container button:hover,
+        .login-container asp\:button:hover {
+            background-color: #004cb3;
+        }
+
+.erro {
+    color: #ff3333;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+.login-container asp\:label {
+    margin-bottom: 6px;
+}
+.quiz-container {
+    background: #ffffff;
+    max-width: 480px;
+    margin: 60px auto;
+    padding: 30px 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 82, 204, 0.25);
+    font-family: 'Arial', sans-serif;
+    color: #1a1a1a;
+}
+
+.question-text {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #004cb3; 
+    text-align: left;
+}
+
+.options-container {
+    margin-bottom: 20px;
+}
+
+.options-list {
+    list-style: none;
+    padding-left: 0;
+    font-size: 16px;
+    color: #003d80;
+}
+
+    .options-list li {
+        margin-bottom: 12px;
+    }
+
+    .options-list input[type="radio"] {
+        margin-right: 12px;
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+
+.confirm-button,
+.next-button {
+    background-color: #0066ff;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 14px 0;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 15px;
+    display: block;
+}
+
+    .confirm-button:hover,
+    .next-button:hover {
+        background-color: #004cb3;
+    }
+
+.feedback-label.correta {
+    color: #007a00;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.feedback-label.erro {
+    color: #cc0000;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.result-image {
+    display: block;
+    max-width: 180px;
+    margin: 15px auto;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(0, 82, 204, 0.35);
+}
+
+.result-label {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #004cb3;
+    margin-top: 25px;
+}
