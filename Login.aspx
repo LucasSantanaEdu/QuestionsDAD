@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <div class="login-container">
-            <asp:Label Text="Usuário:" runat="server" />
+            <asp:Label Text="Usuário (Seu nome em letras minúsculas):" runat="server" />
             <asp:TextBox ID="txtUsuario" runat="server" />
 
             <asp:Label Text="Senha: (Seu filho favorito):" runat="server" />

@@ -29,10 +29,21 @@
                 "a) Bia", "b) Carol", "c) Jéssica", "d) Lucas"},
             .Valores = New List(Of String) From {
                 "1", "2", "3", "4"},
+            .RespostaCorreta = "4",
+            .ImagemCorreta = "~/imagens/",
+            .ImagemErrada = "~/imagens/"
+        })
+            perguntas.Add(New Pergunta With {
+            .Texto = "Meu primo já chamou a polícia pra mim por causa de bagunça",
+            .Opcoes = New List(Of String) From {
+                "a) Bia", "b) Carol", "c) Jéssica", "d) Lucas"},
+            .Valores = New List(Of String) From {
+                "1", "2", "3", "4"},
             .RespostaCorreta = "3",
             .ImagemCorreta = "~/imagens/",
             .ImagemErrada = "~/imagens/"
         })
+
             perguntas.Add(New Pergunta With {
             .Texto = "Eu tenho 11 aninhos e meu sonho é ser médico(a)",
             .Opcoes = New List(Of String) From {
@@ -40,6 +51,106 @@
             .Valores = New List(Of String) From {
                 "1", "2", "3", "4"},
             .RespostaCorreta = "2",
+            .ImagemCorreta = "~/imagens/",
+            .ImagemErrada = "~/imagens/"
+        })
+            perguntas.Add(New Pergunta With {
+            .Texto = "Minha mãe foi na escola bater em uma mulher que me chamou de descabelada",
+            .Opcoes = New List(Of String) From {
+                "a) Bia", "b) Carol", "c) Jéssica", "d) Lucas"},
+            .Valores = New List(Of String) From {
+                "1", "2", "3", "4"},
+            .RespostaCorreta = "1",
+            .ImagemCorreta = "~/imagens/",
+            .ImagemErrada = "~/imagens/"
+        })
+            perguntas.Add(New Pergunta With {
+            .Texto = "Fui brincar na praça e voltei com a testa sangrando pois meu primo me jogou uma pedra",
+            .Opcoes = New List(Of String) From {
+                "a) Bia", "b) Carol", "c) Jéssica", "d) Lucas"},
+            .Valores = New List(Of String) From {
+                "1", "2", "3", "4"},
+            .RespostaCorreta = "3",
+            .ImagemCorreta = "~/imagens/",
+            .ImagemErrada = "~/imagens/"
+        })
+            perguntas.Add(New Pergunta With {
+            .Texto = "O meu sonho é fazer intercâmbio em Londres",
+            .Opcoes = New List(Of String) From {
+                "a) Bia", "b) Carol", "c) Jéssica", "d) Lucas"},
+            .Valores = New List(Of String) From {
+                "1", "2", "3", "4"},
+            .RespostaCorreta = "3",
+            .ImagemCorreta = "~/imagens/",
+            .ImagemErrada = "~/imagens/"
+        })
+            perguntas.Add(New Pergunta With {
+            .Texto = "Se você pisar no chão quando estou passando o pano sou capaz de te matar",
+            .Opcoes = New List(Of String) From {
+                "a) Bia", "b) Carol", "c) Jéssica", "d) Lucas"},
+            .Valores = New List(Of String) From {
+                "1", "2", "3", "4"},
+            .RespostaCorreta = "1",
+            .ImagemCorreta = "~/imagens/",
+            .ImagemErrada = "~/imagens/"
+        })
+            perguntas.Add(New Pergunta With {
+            .Texto = "Eu odeio comer pão ou macarrão",
+            .Opcoes = New List(Of String) From {
+                "a) Bia", "b) Carol", "c) Jéssica", "d) Lucas"},
+            .Valores = New List(Of String) From {
+                "1", "2", "3", "4"},
+            .RespostaCorreta = "1",
+            .ImagemCorreta = "~/imagens/",
+            .ImagemErrada = "~/imagens/"
+        })
+            perguntas.Add(New Pergunta With {
+            .Texto = "Eu amo mudar para o canal ArtAttack",
+            .Opcoes = New List(Of String) From {
+                "a) Bia", "b) Carol", "c) Jéssica", "d) Lucas"},
+            .Valores = New List(Of String) From {
+                "1", "2", "3", "4"},
+            .RespostaCorreta = "3",
+            .ImagemCorreta = "~/imagens/",
+            .ImagemErrada = "~/imagens/"
+        })
+            perguntas.Add(New Pergunta With {
+            .Texto = "Quando criança tinha medo de gato e de cachorro",
+            .Opcoes = New List(Of String) From {
+                "a) Bia", "b) Carol", "c) Jéssica", "d) Lucas"},
+            .Valores = New List(Of String) From {
+                "1", "2", "3", "4"},
+            .RespostaCorreta = "2",
+            .ImagemCorreta = "~/imagens/",
+            .ImagemErrada = "~/imagens/"
+        })
+            perguntas.Add(New Pergunta With {
+            .Texto = "Quando eu era criança pegava as roupas errado, quebrava os cabides até que um dia apanhei de cabidee e aprendi",
+            .Opcoes = New List(Of String) From {
+                "a) Bia", "b) Carol", "c) Jéssica", "d) Lucas"},
+            .Valores = New List(Of String) From {
+                "1", "2", "3", "4"},
+            .RespostaCorreta = "1",
+            .ImagemCorreta = "~/imagens/",
+            .ImagemErrada = "~/imagens/"
+        })
+            perguntas.Add(New Pergunta With {
+            .Texto = "Com 4 anos de idade tomei a minha primeira cerveja",
+            .Opcoes = New List(Of String) From {
+                "a) Bia", "b) Carol", "c) Jéssica", "d) Lucas"},
+            .Valores = New List(Of String) From {
+                "1", "2", "3", "4"},
+            .RespostaCorreta = "4",
+            .ImagemCorreta = "~/imagens/",
+            .ImagemErrada = "~/imagens/"
+        })
+            perguntas.Add(New Pergunta With {
+            .Texto = "Eu uso coque com rendinha para ir pra guarda mirim",
+            .Opcoes = New List(Of String) From {
+                "a) Bia", "b) Carol", "c) Jéssica", "d) Lucas"},
+            .Valores = New List(Of String) From {
+                "1", "2", "3", "4"},
+            .RespostaCorreta = "3",
             .ImagemCorreta = "~/imagens/",
             .ImagemErrada = "~/imagens/"
         })
@@ -120,7 +231,7 @@
         Dim acertos = CInt(ViewState("Acertos"))
         Dim erros = CInt(ViewState("Erros"))
 
-        lblResultadoFinal.Text = $"Você acertou {acertos} de 20 perguntas. <br/>Erros: {erros}"
+        lblResultadoFinal.Text = $"Você acertou {acertos} de 15 perguntas. É um ótimo pai!<br/>Erros: {erros}"
         lblResultadoFinal.Visible = True
         lblFeedback.Visible = False
         rblOpcoes.Visible = False
