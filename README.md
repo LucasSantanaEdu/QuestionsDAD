@@ -1,7 +1,7 @@
 # QuestionsDAD 
 Esse foi meu primeiro projeto que criei do zero, tive a ideia de usá-lo no dia dos pais como uma dinâmica de familia onde meu pai iria tentar adivinhar qual dos filhos 
 passou a situação em questão. 
-É um Quiz simples, onde inseri uma página de Login de forma interativa para que o usuário pudesse inserir o nome e senha (Causando intriga pois a senha é o filho favorito, eu)
+É um jogo de questões simples, onde inseri uma página de Login de forma interativa para que o usuário pudesse inserir o nome e senha (Causando intriga pois a senha é o filho favorito, eu)
 Já na pagina de questionários eu inseri a contagem de questões corretas, retorno de imagem interativa após selecionar a resposta. 
 
 # Por que VB.NET? 
